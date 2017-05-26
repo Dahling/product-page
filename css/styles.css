@@ -1,0 +1,93 @@
+/*-----------------GENERIC GROUPED CSS------------------------*/
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  text-decoration: none;
+  }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+/*-----------------------------BODY------------------------*/
+body {
+  background: CornflowerBlue;
+}
+/*-----------------------------MAIN------------------------*/
+.main {
+ padding: 4%;
+ margin: 2%;
+ border: 2px solid black;
+ border-radius: 10px;
+ background: white;
+}
+/*----------------------------HEADER AND NAV-----------------------*/
+/*.overlay{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.2); /*dim the background*/
+
+
+.name {
+  float: left;
+  font-family: 'Short Stack', cursive;
+  text-transform: uppercase;
+}
+
+.nav {
+  padding-bottom: 40px;
+  font-family: 'Short Stack', cursive;
+  font-size: 25px;
+  color: CornflowerBlue;
+  text-transform: uppercase;
+  
+}
+
+.nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  padding: 0px 20px 0px 20px;
+  list-style: none;
+  display: inline;
+}
+
+img {
+  width:
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.firstSection {
+  /*height: 700px;*/
+  margin: auto;
+}
+.largeImage {
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+
+}
