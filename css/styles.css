@@ -22,21 +22,40 @@ body, html {
   display: table;
   clear: both;
 }
+
+#btn {
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background: #EACAB7;
+  color: black;
+}
+
+#btn:hover {
+  color: white;
+  background: #EACAB7;
+  text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000;
+}
 /*-----------------------------BODY------------------------*/
 body {
-  background: black;
+  background: #84DEFE;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000;
 }
 /*-----------------------------MAIN------------------------*/
-.main {
+.container {
  width: 98%;
- height: 1000px;
+ height: auto;
  padding: 1%;
  border: 2px solid black;
  border-radius: 10px;
  background: white;
  margin: 0 auto;
+ position: relative;
+ clear: both;
 }
 /*----------------------------HEADER AND NAV-----------------------*/
 /*.overlay{
@@ -49,31 +68,35 @@ body {
   background-color: rgba(0,0,0,0.2); /*dim the background*/
 
 
-.name {
+#name {
   float: left;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: black;
+  text-shadow: 1px 1px 1px #000,
+               1px 1px 1px #000;
 }
 
 .nav {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color: CornflowerBlue;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000;
 }
 
 .nav ul {
   list-style: none;
   text-decoration: none;
   float: right;
+  padding-top: 23px;
 }
 
 .nav li {
   display: inline;
   text-decoration: none;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 15px 0px 15px;
 }
 
 .nav:after {
@@ -92,17 +115,17 @@ li {
 }
 
 a {
-  color: hotpink;
+  color: #84DEFE;
+  text-decoration-color: #84DEFE;
 }
 
 a:hover {
-  color: green;
+  color: hotpink;
 }
 /*----------------------------IMAGES-----------------------*/
 img {
   width:
   border: 2px solid black;
-  border-radius: 25px;
 }
 /*----------------------------1st & 2nd SECTION-----------------------*/
 .top {
@@ -125,10 +148,67 @@ img {
   margin: auto;*/
 }
 /*----------------------------SECOND SECTION-----------------------*/
-.infoSection {
+#infoSection {
   float: right;
   font-size: 22px;
   margin-right: 15px;
   padding-top: 80px;
   width: 35%;
+  color: #84DEFE;
+}
+/*-----------------------------MIDDLE SECTION------------------------*/
+#middle {
+
+}
+/*------------------THIRD SECTION-RELATED PRODUCTS/IMAGES--------------*/
+#thirdSection {
+  border: 2px solid black;
+  height: auto;
+
+}
+
+#products {
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  height: 50px;
+}
+
+.relatedProducts {
+  /*width: 25%;*/
+  /*height: 25%;*/
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.caption1 {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  color: hotpink;
+}
+.caption2 {
+  position: absolute;
+  top: 1200px;
+  left: 50px;
+  color: green;
+}
+.caption3 {
+  position: absolute;
+  top: 1200px;
+  left: 50px;
+  color: blue;
+  border: 2px solid black;
+}
+.caption4 {
+  position: absolute;
+  top: 1100px;
+  left: 90px;
+  color: purple;
+  background: white;
+  border: 2px solid black;
 }
