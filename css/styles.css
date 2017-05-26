@@ -13,21 +13,30 @@ html {
 }
 
 body, html {
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  margin:0;
+  padding:0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*-----------------------------BODY------------------------*/
 body {
-  background: CornflowerBlue;
+  background: black;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
 /*-----------------------------MAIN------------------------*/
 .main {
- padding: 4%;
- margin: 2%;
+ width: 98%;
+ height: 1000px;
+ padding: 1%;
  border: 2px solid black;
  border-radius: 10px;
  background: white;
+ margin: 0 auto;
 }
 /*----------------------------HEADER AND NAV-----------------------*/
 /*.overlay{
@@ -42,17 +51,29 @@ body {
 
 .name {
   float: left;
-  font-family: 'Short Stack', cursive;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  color: black;
 }
 
 .nav {
   padding-bottom: 40px;
-  font-family: 'Short Stack', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 25px;
   color: CornflowerBlue;
   text-transform: uppercase;
-  
+}
+
+.nav ul {
+  list-style: none;
+  text-decoration: none;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
 }
 
 .nav:after {
@@ -60,34 +81,54 @@ body {
   display: table;
   clear: both;
 }
-
+/*----------------------------LISTS-----------------------*/
 ul {
   list-style: none;
-  float: right;
   text-decoration: none;
 }
 
 li {
-  float: left;
-  padding: 0px 20px 0px 20px;
   list-style: none;
-  display: inline;
 }
 
+a {
+  color: hotpink;
+}
+
+a:hover {
+  color: green;
+}
+/*----------------------------IMAGES-----------------------*/
 img {
   width:
   border: 2px solid black;
   border-radius: 25px;
 }
+/*----------------------------1st & 2nd SECTION-----------------------*/
+.top {
+  padding-top: 50px;
+  border: 5px solid hotpink;
+  height: auto;
+  clear: both;
+}
+/*----------------------------FIRST SECTION-----------------------*/
 .firstSection {
-  /*height: 700px;*/
-  margin: auto;
+  width: 60%;
+  float:left;
+  margin-left: 10px;
 }
 .largeImage {
   border: 2px solid black;
   border-radius: 25px;
-  width: 50%;
-  height: 50%;
-  margin: auto;
-
+  width: 100%;
+  /*height: 50%;
+  margin: auto;*/
+}
+/*----------------------------SECOND SECTION-----------------------*/
+.infoSection {
+  float: right;
+  font-size: 22px;
+  margin-right: 15px;
+  padding-top: 80px;
+  width: 35%;
 }
