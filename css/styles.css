@@ -301,7 +301,6 @@ img {
   width: 80%;
   margin: auto;
   padding-top: 70px;
-  padding-bottom: 200px;
 }
 
 
@@ -333,4 +332,10 @@ textarea:hover {
 
 #contactBtn:hover {
     border: 10px dotted hotpink;
+}
+
+.footer {
+  padding-top: 100px;
+  text-align: center;
+  clear:both;
 }
