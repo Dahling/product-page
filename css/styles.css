@@ -24,33 +24,34 @@ body, html {
 }
 
 #btn {
-  border-radius: 25px;
   padding: 15px;
   text-align: center;
-  background: #EACAB7;
+  background: lightgrey;
   color: black;
+  width: 200px;
+  height: 60px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #btn:hover {
   color: white;
-  background: #EACAB7;
-  text-shadow: 1px 1px 1px #000,
-               3px 3px 5px #000;
+  background: lightpink;
+  /*text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000;*/
 }
 /*-----------------------------BODY------------------------*/
 body {
-  background: #84DEFE;
+  background: white;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px #000,
-               3px 3px 5px #000;
+  /*text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000;*/
 }
 /*-----------------------------MAIN------------------------*/
 .container {
  width: 98%;
  height: auto;
  padding: 1%;
- border: 2px solid black;
  border-radius: 10px;
  background: white;
  margin: 0 auto;
@@ -84,6 +85,8 @@ body {
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000,
                3px 3px 5px #000;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 .nav ul {
@@ -130,7 +133,6 @@ img {
 /*----------------------------1st & 2nd SECTION-----------------------*/
 .top {
   padding-top: 50px;
-  border: 5px solid hotpink;
   height: auto;
   clear: both;
 }
@@ -144,6 +146,7 @@ img {
   border: 2px solid black;
   border-radius: 25px;
   width: 100%;
+  position: relative;
   /*height: 50%;
   margin: auto;*/
 }
@@ -154,11 +157,14 @@ img {
   margin-right: 15px;
   padding-top: 80px;
   width: 35%;
-  color: #84DEFE;
+  color: #000;
+
 }
 /*-----------------------------MIDDLE SECTION------------------------*/
-#middle {
-
+.middle {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  padding-bottom: 20px;
 }
 /*------------------THIRD SECTION-RELATED PRODUCTS/IMAGES--------------*/
 #thirdSection {
@@ -182,33 +188,99 @@ img {
   padding-right: 5px;
   padding-left: 5px;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
-.caption1 {
-  position: absolute;
-  top: 100px;
-  left: 60px;
-  color: hotpink;
+.images {
+  position: relative;
+  float: left;
 }
+/*------------------CAPTIONS UNDER PRODUCTS--------------*/
+/* Love by Chance Bracelet */
+.caption1{
+  position: absolute;
+  top: 220px;
+  left: 77px;
+}
+
+.caption1:after {
+  clear:both;
+}
+/* Sweet and Pink Bracelet */
 .caption2 {
   position: absolute;
-  top: 1200px;
-  left: 50px;
-  color: green;
+  top: 220px;
+  left: 85px;
 }
+/* Midnight Bright Bracelet */
 .caption3 {
   position: absolute;
-  top: 1200px;
-  left: 50px;
-  color: blue;
-  border: 2px solid black;
+  top: 220px;
+  left: 78px;
 }
+/* Sweet Mystery Bracelet */
 .caption4 {
   position: absolute;
-  top: 1100px;
-  left: 90px;
-  color: purple;
-  background: white;
-  border: 2px solid black;
+  top: 220px;
+  left: 80px;
+}
+/*------------------BUTTONS UNDER PRODUCTS--------------*/
+.btn1 {
+  position: absolute;
+  top: 260px;
+  left: 69px;
+  border-radius: 0px;
+  background: #grey;
+  height: 30px;
+  width: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn1:hover {
+  color: hotpink;
+}
+
+.btn2 {
+  position: absolute;
+  top: 260px;
+  left: 79px;
+  border-radius: 0px;
+  background: #grey;
+  height: 30px;
+  width: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn2:hover {
+  color: hotpink;
+}
+
+.btn3 {
+  position: absolute;
+  top: 260px;
+  left: 73px;
+  border-radius: 0px;
+  background: #grey;
+  height: 30px;
+  width: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn3:hover {
+  color: hotpink;
+}
+
+.btn4 {
+  position: absolute;
+  top: 260px;
+  left: 69px;
+  border-radius: 0px;
+  background: #grey;
+  height: 30px;
+  width: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn4:hover {
+  color: hotpink;
 }
