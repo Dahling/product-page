@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a page from a jewelry website, showcasing one of the bracelets._
+_This is a page from a jewelry website, showcasing one of the bracelets. I also made a contact page, which you can see by clicking on the "CONTACT" link, at the top right of the page._
 
 
 
@@ -18,6 +18,9 @@ _This is a page from a jewelry website, showcasing one of the bracelets._
 * _Open it up, via your favorite browser (...I like Firefox, but apparently it's not one of the cool kids...)._
 * _Open any of the files up, via a program like Atom, in order to see the code or play around with it._
 * _Have a lovely day_
+
+## RawGit Link
+[JuneChristineJewelry](https://rawgit.com/Dahling/product-page/master/index.html)
 
 
 ## Known Bugs
