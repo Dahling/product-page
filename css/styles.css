@@ -31,7 +31,7 @@ body, html {
   width: 200px;
   height: 60px;
   font-family: 'Raleway', sans-serif;
-  margin-left: 10%;
+  margin-left: 1;
 }
 
 #btn:hover {
@@ -150,12 +150,15 @@ img {
 /*----------------------------SECOND SECTION-----------------------*/
 #infoSection {
   float: right;
-  font-size: 22px;
+  font-size: 144%;
   margin-right: 15px;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
   width: 35%;
   color: #000;
-
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 /*-----------------------------MIDDLE SECTION------------------------*/
 .middle {
