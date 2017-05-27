@@ -150,15 +150,14 @@ img {
 /*----------------------------SECOND SECTION-----------------------*/
 #infoSection {
   float: right;
-  font-size: 144%;
+  font-size: 135%;
   margin-right: 15px;
   /*padding-top: 80px;*/
   width: 35%;
   color: #000;
   height: 100%;
   vertical-align: middle;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 1%;
 }
 /*-----------------------------MIDDLE SECTION------------------------*/
 .middle {
