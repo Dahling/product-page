@@ -116,8 +116,7 @@ li:nth-of-type(odd) {
 }
 
 a {
-  color: #84DEFE;
-  text-decoration-color: #84DEFE;
+  color: lightpink;
 }
 
 a:hover {
