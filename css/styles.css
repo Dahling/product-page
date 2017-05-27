@@ -335,7 +335,7 @@ textarea:hover {
 
 
 #contactBtn:hover {
-    border: 10px dotted hotpink;
+    color: hotpink;
 }
 
 .footer {
